@@ -7,6 +7,7 @@
 
 <script>
 import Dashboard from './components/Dashboard.vue'
+import Carpool from './components/Carpool.vue'
 import './style.css'
 
 export default {
