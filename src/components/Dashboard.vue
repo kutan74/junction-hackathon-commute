@@ -6,19 +6,27 @@
     <div class="container">
     <div class="card">    
       <ul class= "column">
-        <li class="cardTitle"> Car Pool </li>   
-        <li class="cardSubTitle"> 12 drivers almost ready </li>   
+        <li class="cardTitle"> Carpool </li>   
+        <li class="cardSubTitle"> Travel with your co-workers </li>   
         <li class="cardSubTitle"> 40 seats avalabile </li>   
       </ul>
     </div> 
     <div class="card">    
       <div class="cardContent"> 
-        <h3 class="cardTitle"> Uber </h3>                
+        <ul class= "column">
+        <li class="cardTitle"> Uber </li>   
+        <li class="cardSubTitle"> Want to share a Uber? </li>   
+        <li class="cardSubTitle"> Find out who is nearby </li>   
+      </ul>
       </div>
     </div>  
     <div class="card">    
       <div class="cardContent"> 
-        <h3 class="cardTitle"> Lyft </h3>                
+        <ul class= "column">
+        <li class="cardTitle"> Lyft </li>   
+        <li class="cardSubTitle"> 5$ off on your first Lyft ride </li>   
+        <li class="cardSubTitle">  </li>   
+      </ul>
       </div>
     </div>        
   </div>  
