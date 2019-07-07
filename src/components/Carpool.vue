@@ -5,4 +5,10 @@
 </template>
 
 <script>
+export default {
+  name: 'Carpool',
+  props: {
+    msg: String
+  }
+}
 </script>

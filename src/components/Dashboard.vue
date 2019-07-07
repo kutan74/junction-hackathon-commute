@@ -5,6 +5,7 @@
 
     <div class="container">
     <div class="card">    
+      <router-link to="/carpool"></router-link>
       <ul class= "column">
         <li class="cardTitle"> Carpool </li>   
         <li class="cardSubTitle"> Travel with your co-workers </li>   
