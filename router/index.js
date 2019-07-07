@@ -1,24 +1,9 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Dashboard from '@/components/Dashboard'
-import Carpool from '@/components/Carpool'
+import Dashboard from '../src/components/Dashboard.vue'
+import Carpool from '../src/components/Carpool.vue'
 
-Vue.use(Router)
+const routes = [
+    { path: '/', component: Dashboard },
+    { path: '/carpool', component: Carpool }    
+];
 
-export default new Router({
-    routes: [
-        {
-            path: '/',
-            name: 'Dashboard',
-            components: Dashboard
-        },
-
-        {
-            path: '/carpool',
-            name: 'Carpool',
-            components: Carpool
-        },
-    ],
-
-    mode: 'history'
-})
+export default routes;

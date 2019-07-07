@@ -4,8 +4,7 @@
     <h1 class="h1"> Carpooling with your Co-Workers </h1>
 
     <div class="container">
-    <div class="card">    
-      <router-link to="/carpool"></router-link>
+    <div class="card" v-on:click="greet">          
       <ul class= "column">
         <li class="cardTitle"> Carpool </li>   
         <li class="cardSubTitle"> Travel with your co-workers </li>   
@@ -41,6 +40,12 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+
+  methods: {
+    greet: function (event) {
+      this.$router.push('carpool')
+    }
   }
 }
 </script>

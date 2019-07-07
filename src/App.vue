@@ -1,7 +1,21 @@
 <template>
   <div id="app">
-    <img class="appLogo" alt="Vue logo" src="./assets/logo_white_background.jpg">
-    <Dashboard msg="Welcome to Your Vue.js App"/>
+    <div class="navBar"> 
+      <h1 class="navBarTitle"> Commute </h1>
+    </div>
+    
+    <nav>
+        <router-link to='/'></router-link>
+        <router-link to='/carpool'></router-link>       
+    </nav>
+    
+     <transition
+        name="fade"
+        mode="out-in"
+      >
+        <router-view/>
+      </transition>  
+    
   </div>
 </template>
 
@@ -13,7 +27,7 @@ import './style.css'
 export default {
   name: 'app',
   components: {
-    Dashboard
+    Dashboard,    
   }
 }
 </script>
@@ -23,8 +37,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  text-align: center;  
+  
 }
 </style>
